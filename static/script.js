@@ -25,7 +25,7 @@ Highcharts.chart('chart', {
     text: '[CPU] Usage'
   },
   xAxis: {
-    type: '[Date] Datatime'
+    type: 'Datatime'
   },
   yAxis: {
     title: {
