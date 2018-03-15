@@ -17,19 +17,19 @@ Highcharts.chart('chart', {
 
               series.addPoint([x, y], true, true);
             });
-        }, 3000);
+        }, 1000);
       } 
     }
   },
   title: {
-    text: 'CPU Usage'
+    text: '[CPU] Usage'
   },
   xAxis: {
-    type: 'datetime'
+    type: '[Date] Datatime'
   },
   yAxis: {
     title: {
-      text: 'Percentage' 
+      text: '[%]Percentage' 
     } 
   },
   series: [{
